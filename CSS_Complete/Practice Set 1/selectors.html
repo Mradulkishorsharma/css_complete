@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Practise set 1</title>
+    <link rel="stylesheet" href="index.css"><!--It has last priority-->
+    <style> /*It has second priority*/
+        #heading{ 
+            color: blue;
+        }
+        #div_22 {
+            color: aqua;
+        }
+        p {
+            color: blueviolet;
+        }
+        .speacial_heading{
+            color: darkgreen;
+        }
+        #div_23 {
+            color: goldenrod;
+        }
+    </style>
+</head>
+<body>
+    <h1 style = "color: red ;">This is my heading</h1>
+    <hr> <!-- in-line color function has the highest priority-->
+    <div id="heading" style = "color : gold;"> heading </div>
+    <hr>
+    <div id="div_22">Div</div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, assumenda?
+
+    </p>
+    <h2 class="speacial_heading">heading 2</h2>
+    <hr>
+    <div id="div_23">Div</div>
+
+</body>
+</html>
